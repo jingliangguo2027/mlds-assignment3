@@ -1,0 +1,22 @@
+{
+  "config": {
+    "clients": 10,
+    "epochs": 1,
+    "lr": 1.0,
+    "rounds": 300,
+    "seed": 42,
+    "inputs": "ink",
+    "noise": 3.0
+  },
+  "source_sha256": "d2cc7fb59c5902ad54600ef2688bfa1130f571ce0cef27fe8a848de6202136fd",
+  "status": "non_finite_update",
+  "completed_rounds": 5,
+  "failed_round": 6,
+  "model_change_on_rejection": 0.0,
+  "error": "A local update produced non-finite parameters",
+  "last_finite_model_validation": {
+    "loss": 4.4681803434149784e+32,
+    "accuracy": 0.030747619790853754
+  },
+  "outside_fraction": 0.8579207688268478
+}

@@ -1,0 +1,117 @@
+{
+  "split_overlap": 0,
+  "single_client_error": 0.0,
+  "zero_lr_error": 0.0,
+  "unequal_client_counts": [
+    275,
+    297
+  ],
+  "aggregation_error": 1.4901161193847656e-08,
+  "tiny_before": {
+    "loss": 4.1038432121276855,
+    "accuracy": 0.125
+  },
+  "tiny_after": {
+    "loss": 0.0008965732995420694,
+    "accuracy": 1.0
+  },
+  "shuffled_label_control": {
+    "rounds": 100,
+    "validation": {
+      "loss": 3.718654269972662,
+      "accuracy": 0.06508506321211176
+    },
+    "real_label_validation": {
+      "loss": 0.8877529503310435,
+      "accuracy": 0.7607304510691432
+    },
+    "run": "shuffled-label-control-1d3c15a0b67a.json"
+  },
+  "zero_noise_parameter_error": 0.0,
+  "fresh_noise_evaluation": {
+    "0.0": {
+      "stored_noise_accuracy": 0.8712329844991739,
+      "fresh_noise_accuracy": 0.8712329844991739,
+      "clean_train_accuracy": 0.8712329844991739
+    },
+    "0.05": {
+      "stored_noise_accuracy": 0.9047918797702416,
+      "fresh_noise_accuracy": 0.8357463215044457,
+      "clean_train_accuracy": 0.8556534739161225
+    },
+    "0.1": {
+      "stored_noise_accuracy": 0.9635691242426627,
+      "fresh_noise_accuracy": 0.7518294122275553,
+      "clean_train_accuracy": 0.8290974899677394
+    },
+    "0.3": {
+      "stored_noise_accuracy": 0.9981902588716658,
+      "fresh_noise_accuracy": 0.3898025021638209,
+      "clean_train_accuracy": 0.6993862617043041
+    },
+    "0.6": {
+      "stored_noise_accuracy": 0.9518451491069321,
+      "fresh_noise_accuracy": 0.12432134707687466,
+      "clean_train_accuracy": 0.07030450861594145
+    }
+  },
+  "laplace": {
+    "b": 0.3,
+    "mean": 0.0011107167229056358,
+    "mean_absolute": 0.2993806302547455,
+    "variance": 0.17931509017944336,
+    "expected_variance": 0.18
+  },
+  "invalid_noise_rejected": [
+    "-0.1",
+    "nan",
+    "inf"
+  ],
+  "strong_noise": {
+    "config": {
+      "clients": 10,
+      "epochs": 1,
+      "lr": 1.0,
+      "rounds": 300,
+      "seed": 42,
+      "inputs": "ink",
+      "noise": 3.0
+    },
+    "source_sha256": "d2cc7fb59c5902ad54600ef2688bfa1130f571ce0cef27fe8a848de6202136fd",
+    "status": "non_finite_update",
+    "completed_rounds": 5,
+    "failed_round": 6,
+    "model_change_on_rejection": 0.0,
+    "error": "A local update produced non-finite parameters",
+    "last_finite_model_validation": {
+      "loss": 4.4681803434149784e+32,
+      "accuracy": 0.030747619790853754
+    },
+    "outside_fraction": 0.8579207688268478
+  },
+  "strong_noise_lower_rate": {
+    "lr": 0.01,
+    "rounds": 300,
+    "validation": {
+      "loss": 4.003940757916984,
+      "accuracy": 0.16388325269236773
+    },
+    "run": "strong-noise-lower-rate-66eec575a92e.json"
+  },
+  "one_cpu": {
+    "batches": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "max_parameter_error": 0.0,
+    "cpus_released": true
+  },
+  "actor_failure": {
+    "injected_failure_raised": true,
+    "unchanged_model_error": 0.0,
+    "cpus_released": true,
+    "successful_retry_error": 0.0
+  }
+}

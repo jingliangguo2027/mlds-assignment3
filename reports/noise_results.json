@@ -1,0 +1,288 @@
+{
+  "config": {
+    "clients": 10,
+    "epochs": 1,
+    "lr": 1.0,
+    "rounds": 300,
+    "seed": 42,
+    "inputs": "ink",
+    "noise": 0.0
+  },
+  "records": {
+    "0.0": [
+      {
+        "seed": 42,
+        "state": "ink-lr1.0-c10-e1-r300-b0.0-s42-f3a31c46219d.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.0-s42-f3a31c46219d.json",
+        "train": {
+          "loss": 0.43344052937809513,
+          "accuracy": 0.8712329844991739
+        },
+        "clean_train": {
+          "loss": 0.43344052937809513,
+          "accuracy": 0.8712329844991739
+        },
+        "validation": {
+          "loss": 0.7378337896426531,
+          "accuracy": 0.8122366162010302
+        }
+      },
+      {
+        "seed": 43,
+        "state": "ink-lr1.0-c10-e1-r300-b0.0-s43-72a09db04675.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.0-s43-72a09db04675.json",
+        "train": {
+          "loss": 0.4633629552985412,
+          "accuracy": 0.8516799118734755
+        },
+        "clean_train": {
+          "loss": 0.4633629552985412,
+          "accuracy": 0.8516799118734755
+        },
+        "validation": {
+          "loss": 0.758578893936274,
+          "accuracy": 0.790853753706883
+        }
+      },
+      {
+        "seed": 44,
+        "state": "ink-lr1.0-c10-e1-r300-b0.0-s44-9677f0958c91.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.0-s44-9677f0958c91.json",
+        "train": {
+          "loss": 0.42456307840043384,
+          "accuracy": 0.8708395625147534
+        },
+        "clean_train": {
+          "loss": 0.42456307840043384,
+          "accuracy": 0.8708395625147534
+        },
+        "validation": {
+          "loss": 0.7282993650964814,
+          "accuracy": 0.8089589511471827
+        }
+      }
+    ],
+    "0.05": [
+      {
+        "seed": 42,
+        "state": "ink-lr1.0-c10-e1-r300-b0.05-s42-8ed02dbd8ea3.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.05-s42-8ed02dbd8ea3.json",
+        "train": {
+          "loss": 0.3347687498760951,
+          "accuracy": 0.9047918797702416
+        },
+        "clean_train": {
+          "loss": 0.4794327928526732,
+          "accuracy": 0.8556534739161225
+        },
+        "validation": {
+          "loss": 0.7906596977289854,
+          "accuracy": 0.8020914624629312
+        }
+      },
+      {
+        "seed": 43,
+        "state": "ink-lr1.0-c10-e1-r300-b0.05-s43-86bf561dfcce.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.05-s43-86bf561dfcce.json",
+        "train": {
+          "loss": 0.3532761183512165,
+          "accuracy": 0.888228814226139
+        },
+        "clean_train": {
+          "loss": 0.49441566575341733,
+          "accuracy": 0.843260681406877
+        },
+        "validation": {
+          "loss": 0.7928650553706136,
+          "accuracy": 0.789761198688934
+        }
+      },
+      {
+        "seed": 44,
+        "state": "ink-lr1.0-c10-e1-r300-b0.05-s44-d98562fb34ee.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.05-s44-d98562fb34ee.json",
+        "train": {
+          "loss": 0.33057723164286396,
+          "accuracy": 0.8993233141867968
+        },
+        "clean_train": {
+          "loss": 0.47836467656774817,
+          "accuracy": 0.8524274136438744
+        },
+        "validation": {
+          "loss": 0.7834783357299023,
+          "accuracy": 0.7991259559856407
+        }
+      }
+    ],
+    "0.1": [
+      {
+        "seed": 42,
+        "state": "ink-lr1.0-c10-e1-r300-b0.1-s42-8a6c572136dc.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.1-s42-8a6c572136dc.json",
+        "train": {
+          "loss": 0.17021473274438065,
+          "accuracy": 0.9635691242426627
+        },
+        "clean_train": {
+          "loss": 0.6012369294406316,
+          "accuracy": 0.8290974899677394
+        },
+        "validation": {
+          "loss": 0.8985483657184361,
+          "accuracy": 0.7867956922116435
+        }
+      },
+      {
+        "seed": 43,
+        "state": "ink-lr1.0-c10-e1-r300-b0.1-s43-2e760b9aa65e.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.1-s43-2e760b9aa65e.json",
+        "train": {
+          "loss": 0.1744009877594424,
+          "accuracy": 0.957392399087261
+        },
+        "clean_train": {
+          "loss": 0.6110736880841586,
+          "accuracy": 0.8220552364466126
+        },
+        "validation": {
+          "loss": 0.9076953732838995,
+          "accuracy": 0.7827376307164039
+        }
+      },
+      {
+        "seed": 44,
+        "state": "ink-lr1.0-c10-e1-r300-b0.1-s44-71f864052d5f.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.1-s44-71f864052d5f.json",
+        "train": {
+          "loss": 0.17481436951922644,
+          "accuracy": 0.9569596349043985
+        },
+        "clean_train": {
+          "loss": 0.6292855126710117,
+          "accuracy": 0.8219372098512865
+        },
+        "validation": {
+          "loss": 0.9268516403884137,
+          "accuracy": 0.7791478070859997
+        }
+      }
+    ],
+    "0.3": [
+      {
+        "seed": 42,
+        "state": "ink-lr1.0-c10-e1-r300-b0.3-s42-37705054b3b0.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.3-s42-37705054b3b0.json",
+        "train": {
+          "loss": 0.03516275209806129,
+          "accuracy": 0.9981902588716658
+        },
+        "clean_train": {
+          "loss": 1.2333483322663428,
+          "accuracy": 0.6993862617043041
+        },
+        "validation": {
+          "loss": 1.3957043673516958,
+          "accuracy": 0.6792570625877946
+        }
+      },
+      {
+        "seed": 43,
+        "state": "ink-lr1.0-c10-e1-r300-b0.3-s43-6fbf6a69b411.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.3-s43-6fbf6a69b411.json",
+        "train": {
+          "loss": 0.03640122657137745,
+          "accuracy": 0.9978361790856873
+        },
+        "clean_train": {
+          "loss": 1.2296946621098745,
+          "accuracy": 0.6976158627744118
+        },
+        "validation": {
+          "loss": 1.3761238722118736,
+          "accuracy": 0.6800374590291868
+        }
+      },
+      {
+        "seed": 44,
+        "state": "ink-lr1.0-c10-e1-r300-b0.3-s44-be51a0e17fca.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.3-s44-be51a0e17fca.json",
+        "train": {
+          "loss": 0.03284246865822635,
+          "accuracy": 0.9982689432685499
+        },
+        "clean_train": {
+          "loss": 1.2780298174051345,
+          "accuracy": 0.6930128255566921
+        },
+        "validation": {
+          "loss": 1.443830502317907,
+          "accuracy": 0.6756672389573903
+        }
+      }
+    ],
+    "0.6": [
+      {
+        "seed": 42,
+        "state": "ink-lr1.0-c10-e1-r300-b0.6-s42-76bdaa7614f9.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.6-s42-76bdaa7614f9.json",
+        "train": {
+          "loss": 0.1825004062567043,
+          "accuracy": 0.9518451491069321
+        },
+        "clean_train": {
+          "loss": 3.8948410938253035,
+          "accuracy": 0.07030450861594145
+        },
+        "validation": {
+          "loss": 3.904343006222747,
+          "accuracy": 0.06711409395973154
+        }
+      },
+      {
+        "seed": 43,
+        "state": "ink-lr1.0-c10-e1-r300-b0.6-s43-ae3c467b0c0f.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.6-s43-ae3c467b0c0f.json",
+        "train": {
+          "loss": 0.17758270739120807,
+          "accuracy": 0.952513966480447
+        },
+        "clean_train": {
+          "loss": 3.878023663102919,
+          "accuracy": 0.0725863561255803
+        },
+        "validation": {
+          "loss": 3.87095535871334,
+          "accuracy": 0.07491805837365381
+        }
+      },
+      {
+        "seed": 44,
+        "state": "ink-lr1.0-c10-e1-r300-b0.6-s44-a2f6108fd453.pt",
+        "run": "ink-lr1.0-c10-e1-r300-b0.6-s44-a2f6108fd453.json",
+        "train": {
+          "loss": 0.26996109963814086,
+          "accuracy": 0.9253285073569911
+        },
+        "clean_train": {
+          "loss": 3.9025394872824037,
+          "accuracy": 0.06459988984184437
+        },
+        "validation": {
+          "loss": 3.9060590126891395,
+          "accuracy": 0.06211955673482129
+        }
+      }
+    ]
+  },
+  "means": {
+    "0.0": 0.8040164403516986,
+    "0.05": 0.7969928723791687,
+    "0.1": 0.7828937100046823,
+    "0.3": 0.6783205868581238,
+    "0.6": 0.06805056968940221
+  },
+  "choice": 0.05,
+  "within_two_points": true,
+  "selection_rule": "Largest positive b within 2 percentage points of clean mean validation accuracy; if none qualifies, use the smallest tested positive b and report the loss."
+}

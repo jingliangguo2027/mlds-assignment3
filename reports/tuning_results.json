@@ -1,0 +1,192 @@
+{
+  "selection": "Final validation accuracy after 100 rounds; test data were not loaded.",
+  "rows": [
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.01,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "raw",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 2.7307655950111327,
+        "accuracy": 0.3436865927891369
+      },
+      "run": "raw-lr0.01-c10-e3-r100-b0.0-s42-badb04ae830b.json",
+      "state": "raw-lr0.01-c10-e3-r100-b0.0-s42-badb04ae830b.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.03,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "raw",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 1.9545642560444143,
+        "accuracy": 0.496488216013735
+      },
+      "run": "raw-lr0.03-c10-e3-r100-b0.0-s42-91308fc36822.json",
+      "state": "raw-lr0.03-c10-e3-r100-b0.0-s42-91308fc36822.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.1,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "raw",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 3.2299191442316664,
+        "accuracy": 0.13610113937880444
+      },
+      "run": "raw-lr0.1-c10-e3-r100-b0.0-s42-b260ab421e4d.json",
+      "state": "raw-lr0.1-c10-e3-r100-b0.0-s42-b260ab421e4d.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.3,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "raw",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 3.7162620862374647,
+        "accuracy": 0.05884189168097394
+      },
+      "run": "raw-lr0.3-c10-e3-r100-b0.0-s42-e6a6cb3d9f56.json",
+      "state": "raw-lr0.3-c10-e3-r100-b0.0-s42-e6a6cb3d9f56.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.01,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "ink",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 2.7491985206133642,
+        "accuracy": 0.3956609957858592
+      },
+      "run": "ink-lr0.01-c10-e3-r100-b0.0-s42-7542ddc2e379.json",
+      "state": "ink-lr0.01-c10-e3-r100-b0.0-s42-7542ddc2e379.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.03,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "ink",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 1.7316966663382625,
+        "accuracy": 0.5778055252068051
+      },
+      "run": "ink-lr0.03-c10-e3-r100-b0.0-s42-408bb870de67.json",
+      "state": "ink-lr0.03-c10-e3-r100-b0.0-s42-408bb870de67.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.1,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "ink",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 1.2390582991293855,
+        "accuracy": 0.6809739347588575
+      },
+      "run": "ink-lr0.1-c10-e3-r100-b0.0-s42-a44636ee358e.json",
+      "state": "ink-lr0.1-c10-e3-r100-b0.0-s42-a44636ee358e.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.3,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "ink",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 0.9501461504178131,
+        "accuracy": 0.7485562665834243
+      },
+      "run": "ink-lr0.3-c10-e3-r100-b0.0-s42-ce922b1ee124.json",
+      "state": "ink-lr0.3-c10-e3-r100-b0.0-s42-ce922b1ee124.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 0.6,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "ink",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 0.8586663381160654,
+        "accuracy": 0.7818011549867333
+      },
+      "run": "ink-lr0.6-c10-e3-r100-b0.0-s42-91c922376182.json",
+      "state": "ink-lr0.6-c10-e3-r100-b0.0-s42-91c922376182.pt"
+    },
+    {
+      "config": {
+        "clients": 10,
+        "epochs": 3,
+        "lr": 1.0,
+        "rounds": 100,
+        "seed": 42,
+        "inputs": "ink",
+        "noise": 0.0
+      },
+      "validation": {
+        "loss": 0.8283691366060821,
+        "accuracy": 0.790853753706883
+      },
+      "run": "ink-lr1.0-c10-e3-r100-b0.0-s42-4be02e852772.json",
+      "state": "ink-lr1.0-c10-e3-r100-b0.0-s42-4be02e852772.pt"
+    }
+  ],
+  "chosen": {
+    "config": {
+      "clients": 10,
+      "epochs": 3,
+      "lr": 1.0,
+      "rounds": 100,
+      "seed": 42,
+      "inputs": "ink",
+      "noise": 0.0
+    },
+    "validation": {
+      "loss": 0.8283691366060821,
+      "accuracy": 0.790853753706883
+    },
+    "run": "ink-lr1.0-c10-e3-r100-b0.0-s42-4be02e852772.json",
+    "state": "ink-lr1.0-c10-e3-r100-b0.0-s42-4be02e852772.pt"
+  }
+}

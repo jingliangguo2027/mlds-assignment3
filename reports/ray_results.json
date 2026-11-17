@@ -1,0 +1,19 @@
+{
+  "config": {
+    "clients": 4,
+    "epochs": 1,
+    "lr": 1.0,
+    "rounds": 300,
+    "seed": 42,
+    "inputs": "ink",
+    "noise": 0.0
+  },
+  "serial_run": "four-client-serial-aba5274d9c6d.json",
+  "parallel_run": "four-client-ray-382dae12ea93.json",
+  "state": "four-client-ray-382dae12ea93.pt",
+  "max_parameter_error": 0.0,
+  "max_validation_curve_error": 0.0,
+  "serial_update_seconds": 2.9405127086793073,
+  "ray_update_seconds": 527.4340287520026,
+  "cpus": 4
+}
